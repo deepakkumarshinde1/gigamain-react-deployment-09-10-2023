@@ -4,7 +4,8 @@ import react from "react";
 
 class App extends React.Component {
   constructor() {
-    state = {
+    super();
+    this.state = {
       countone: 0,
       counttwo: 2,
     };
